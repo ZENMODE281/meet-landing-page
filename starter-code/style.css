@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    place-items: center;
+}
+.meet{
+    border: solid red 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.group_chat{
+    border: solid blue 4px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+}
+.group_text{
+    display: grid;
+    place-items: center;
+    /* margin: 0 150px 0 150px; */
+}
+.inner_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#left, #right {
+    height: inherit;
+    width: inherit;
+}
+.left_image{
+    margin-right:150px ;
+}
+.right_image{
+    margin-left: 150px;
+}
+.left_image, .right_image{
+    height: inherit;
+    width: 300px;
+}
+.image_group{
+    border: solid green 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+.both_buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.download_btn{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    background-color: cyan;
+}
+.what_is_btn{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    background-color: rgb(161, 7, 161);
+}
+img{
+    width: 200px;
+    border-radius: 10px;  
+}
+footer{
+    border:solid 4px grey;
+}
+.length{
+    height: 70px;
+    width: 0px;
+    border: solid grey 1px;
+}
+.round{
+    height: 60px;
+    width: 60px;
+    border-radius: 90px;
+    border: solid grey 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.built_for{
+    display: grid;
+    place-items: center;
+    width: inherit;
+    border: solid peru 4px;
+    margin-top: 50px;
+}
+footer{
+    margin-top: 70px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 70px 0 70px 0;
+}
