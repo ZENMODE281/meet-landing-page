@@ -6,12 +6,17 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
   <title>Frontend Mentor | Meet landing page</title>
 </head>
 <body>
   <div class="container">
-    <div class="meet"><h3>meet</h3></div>
+    <div class="meet"><img src="/starter-code/assets/logo.svg"></div>
+    <div class="tablet_image">
+      <img src="/starter-code/assets/tablet/image-hero.png" id="tablet_img">
+    </div>
     <div class="group_chat">
       <div class="left_image">
         <img src="/starter-code/assets/desktop/image-hero-left.png" id="left">
@@ -19,10 +24,10 @@
       <div class="group_text">
         <div class="inner_text">
         <h1>Group chat for everyone</h1>
-        Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+        <p>Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
         </div>
         <div class="both_buttons">
-        <button class="download_btn">Download v1.3</button>
+        <button class="download_btn"><span class="download">Download</span>v1.3</button>
         <button class="what_is_btn">What is it?</button>
         </div>
       </div>
@@ -32,6 +37,7 @@
     </div>  
       <div class="length"></div>
         <div class="round">01</div>
+        
       <div class="image_group">
         <img src="/starter-code/assets/desktop/image-woman-in-videocall.jpg" alt="">
         <img src="/starter-code/assets/desktop/image-women-videochatting.jpg" alt="">
@@ -39,20 +45,26 @@
         <img src="/starter-code/assets/desktop/image-man-texting.jpg" alt="">
       </div>
       <div class="built_for">
-        <h4>Built for modern use</h4>
-        <h2>Smarter meetings, all in one place</h2>
-    
-        Send messages, share files, show your screen, and record your meetings — all in one 
-        workspace. Control who can join with invite-only team access, data encryption, and data export.
+        <h4>BUILT FOR MODERN USE</h4>
+        <h1 id="built_for_head">Smarter meetings, all in one place</h1>
+        <div class="built_text">
+          Send messages, share files, show your <br> screen, and record your meetings — all in one 
+          workspace. Control who can join with invite-<br>only team access, data encryption, and data export.
+        </div>  
       </div>
       <div class="length"></div>
       <div class="round">02</div>
     
     <footer>
-      Experience more together
-      Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
-
-      Download v1.3
+      <div class="footer_all">
+        <div class="footer_text">
+          <p>Experience more together
+          Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+        </div>  
+        <div class="footer_button">
+          <button class="what_is_btn"><span class="download">Download</span> v1.3</button>
+        </div>  
+      </div>
     </footer>
   </div>  
 </body>
