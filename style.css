@@ -145,7 +145,7 @@ footer{
     place-items: center;
     padding: 70px 0 70px 0;
     color: white;
-    background: url(/starter-code/assets/desktop/image-footer.jpg);
+    background: url(./starter-code/assets/desktop/image-footer.jpg);
     text-align: center;
 }
 h4{
@@ -176,7 +176,7 @@ h4{
         width: 100%;
     }
     footer{
-        background-image: url(/starter-code/assets/mobile/image-footer.jpg);
+        background-image: url(./starter-code/assets/mobile/image-footer.jpg);
     }
     .image_group {
         display: grid;
